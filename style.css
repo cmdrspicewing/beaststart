@@ -43,23 +43,23 @@ canvas {
 	z-index: 999;
 }
 .c1.one, .c2.one {
-	top: 100px;
-	left: -200px;
-}
-.c1.two, .c2.two {
-	top: -200px;
+	top: 500px;
 	left: -100px;
 }
+.c1.two, .c2.two {
+	top: 200px;
+	left: 100px;
+}
 .c1.three, .c2.three {
-	top: 150px;
-	right: -100px;
+	top: -100px;
+	right: 100px;
 }
 .c1.four, .c22.four {
-	top: -180px;
-	right: -100px;
+	top: 700px;
+	right: 100px;
 }
 .c2 .one {
-	top: -209px;
+	top: 100px;
 }
 @media (max-width: 1023px) {
 	.c2.one {
