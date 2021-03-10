@@ -38,7 +38,7 @@ canvas {
 	height: 700px;
 	position: absolute;
 	/* background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/131045/clouds.png") 0 0 no-repeat; */
-	background: transparent url("http://www.pngmart.com/files/10/Sunset-Cloud-PNG-HD.png") 0 0 no-repeat;
+	background: transparent url("./img/Sunset-Cloud-PNG-HD.png") 0 0 no-repeat;
 	background-size: 100%;
 	z-index: 999;
 }
