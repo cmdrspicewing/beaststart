@@ -79,15 +79,15 @@ canvas {
 	animation: anime 300s linear infinite;
 }
 .c2 {
-	transform: translateX(600%);
-	animation: anim 300s linear infinite;
+	transform: translateX(1000%);
+	animation: anim 360s linear infinite;
 }
 .title {
 	font-family: 'Big Shoulders Stencil Text', cursive;
   position: absolute;
   color: #262626;
   padding: 20px 50px;
-	z-index: 997;
+	z-index: 1997;
 }
  
 .title:before {
