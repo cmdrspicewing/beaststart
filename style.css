@@ -5,6 +5,8 @@ body {
 	min-height: 100%;
 	margin: 0;
 	overflow: hidden;
+	background: black;
+
 }
 canvas {
 	width: 100%;
@@ -15,7 +17,9 @@ canvas {
 	left: 0;
 	bottom: 0;
 	right: 0;
-	background: linear-gradient(#b7b0e3, #ffd3d6);
+	/* background: linear-gradient(#b7b0e3, #ffd3d6); */
+	background: black;
+
 }
 @keyframes anim {
 	from {
@@ -85,15 +89,15 @@ canvas {
 .title {
 	font-family: 'Big Shoulders Stencil Text', cursive;
   position: absolute;
-  color: #262626;
+  color: #ffffff;
   padding: 20px 50px;
 	z-index: 1997;
 }
  
 .title:before {
 	font-family: 'Condiment', cursive;
-	width: 700px;
-  background: #dcc6e0;
+	width: 1600px;
+  background: black;
   color: white;
   content: 'Starting Soon';
   overflow: hidden;
@@ -103,7 +107,7 @@ canvas {
   /* padding: 20px 50px; */
     -webkit-clip-path: polygon(0% 0% , 30% 0%, 30% 100%, 0% 100%);  
   clip-path: polygon(0% 0% , 30% 0%, 30% 100%, 0% 100%);
-  animation: slide 14s 1s linear infinite; 
+  animation: slide 24s 1s linear infinite; 
 	/* border-radius: 45%; */
 } 
            
