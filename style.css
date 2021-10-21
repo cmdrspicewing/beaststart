@@ -96,8 +96,8 @@ canvas {
  
 .title:before {
 	font-family: 'Condiment', cursive;
-	width: 1600px;
-  background: black;
+	width: 800px;
+  background: grey;
   color: white;
   content: 'Starting Soon';
   overflow: hidden;
